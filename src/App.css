@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Pretendard';
+  src: url('./assets/fonts/PretendardVariable.ttf') format('truetype');
+}
+
+* {
+  font-family: 'Pretendard';
+}
+
+.web {
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+.phoneWrapper {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone {
+  max-width: 767px;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
