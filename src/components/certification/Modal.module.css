@@ -1,0 +1,27 @@
+.modal {
+  height: 36px;
+  width: 65px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 45px;
+  display: block;
+  z-index: 1011;
+  pointer-events: auto;
+}
+
+.modalnone {
+  height: 36px;
+  width: 65px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 45px;
+  display: none;
+  z-index: 1011;
+  pointer-events: none;
+}
