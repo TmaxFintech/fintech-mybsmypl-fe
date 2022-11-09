@@ -7,9 +7,6 @@ export default function Modal({ isVisible, onSetIsVisible }) {
       <div
         className={isVisible ? styles.modal : styles.modalnone}
         isVisible={isVisible}
-        onClick={() => {
-          onSetIsVisible(false);
-        }}
       ></div>
     </>
   );
