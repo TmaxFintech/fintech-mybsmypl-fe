@@ -1,11 +1,11 @@
 .modal {
   width: 100%;
-  height: 110px;
-  background-color: red;
-  position: pixed;
-  bottom: 0;
-  transform: translate(-50%, -50%);
-  padding: 45px;
+  height: 60%;
+  border-radius: 32px 32px 0px 0px;
+  background-color: #fff;
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
   display: block;
   z-index: 1011;
   pointer-events: auto;
@@ -13,11 +13,12 @@
 
 .modalnone {
   width: 100%;
-  height: 110px;
+  height: 60%;
+  border-radius: 32px 32px 0px 0px;
   background-color: #fff;
-  position: pixed;
-  bottom: 0;
-  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
   padding: 45px;
   display: none;
   z-index: 1011;
